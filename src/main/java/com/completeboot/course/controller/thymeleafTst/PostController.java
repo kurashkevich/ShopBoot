@@ -34,9 +34,18 @@ public class PostController {
         post2.setAuthor("Dan Vega");
         post2.setBody("<p>This post didn't take long to write.");
 
+
+
         ArrayList<Post> posts = new ArrayList<Post>();
         posts.add(post1);
         posts.add(post2);
+        posts.add(post1);
+        posts.add(post1);
+        posts.add(post1);
+        posts.add(post1);
+        posts.add(post1);
+        posts.add(post1);
+
 
         return posts;
     }
