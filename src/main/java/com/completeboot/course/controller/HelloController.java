@@ -20,7 +20,7 @@ public class HelloController {
         this.notificationService = notificationService;
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/say")
     public String sayHello(){
         return helloControllerMsg;
     }
