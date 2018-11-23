@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-
     private NotificationService notificationService;
 
     @Value("${helloController.msg}")
