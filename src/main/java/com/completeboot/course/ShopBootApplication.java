@@ -22,7 +22,7 @@ public class ShopBootApplication {
         for (String name : beanNames) {
             System.out.println(name);
         }
-
+        //asdads
 
         MyAppConfig config = (MyAppConfig)applicationContext.getBean("myAppConfig");
         System.out.println(config.toString());
